@@ -104,7 +104,7 @@ font-size:large;
   translate: -50% -50%;
   z-index: -1;
   border-radius: 10px;
-  animation: 20s spin linear infinite;
+  animation: 10s spin linear infinite;
 }
 .card::before{
   filter: blur(1.5rem);
@@ -132,17 +132,17 @@ font-size:large;
   width: fit-content;
 }
 .main-p1{
-  font-size:6cap;
+  font-size:5cap;
   font-weight: bolder;
 }
 .main-p2{
-    font-size:6cap;
+    font-size:5cap;
     font-weight: bolder;
 }
 .mod-div,.details-div{
   width: 90vw;
 }
-.card .text-7xl{
+.card,.text-7xl{
   font-size: 2cap;
 }
 .quote{
