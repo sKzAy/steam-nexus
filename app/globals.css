@@ -134,20 +134,23 @@ font-size:large;
   width: fit-content;
 }
 .main-p1{
-  font-size:7cap;
+  font-size:4cap;
   font-weight: bolder;
 }
 .main-p2{
-    font-size:7cap;
+    font-size:4cap;
     font-weight: bolder;
 }
 .mod-div,.details-div{
   width: 90vw;
 }
 .card .text-7xl{
-  font-size: 5cap;
+  font-size: 2cap;
 }
 .quote{
   font-size:80%;
+}
+.nov p{
+  font-size: medium;
 }
 }

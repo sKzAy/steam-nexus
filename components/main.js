@@ -13,8 +13,8 @@ const MainContent = () => {
             <p className='main-p1 '>Steam-</p><p className='main-p2'>Nexus</p>
             </div>
         </div>
-       <div className='flex1'><p className='text-yellow-500 text-4xl'>Nove</p> <p className='text-red-700 text-4xl'>mber &nbsp;</p><p className='text-yellow-500 text-4xl'> 1</p><p className='text-red-700 text-4xl'> &nbsp;& 2</p></div>
-       <div className='flex1'><p className='text-yellow-500 '>Venue: Beaconhouse Potohar Campus A levels Building & Ground</p></div>
+       <div className='flex1 nov'><p className='text-yellow-500 text-4xl'>Nove</p> <p className='text-red-700 text-4xl'>mber &nbsp;</p><p className='text-yellow-500 text-4xl'> 1</p><p className='text-red-700 text-4xl'> &nbsp;& 2</p></div>
+       <div className='flex1 nov'><p className='text-yellow-500 text-center '>Venue: Beaconhouse Potohar Campus A levels Building & Ground</p></div>
         <div><Card/></div>
 
         <div className="quote text-white flex1 flex2">
