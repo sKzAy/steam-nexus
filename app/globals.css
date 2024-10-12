@@ -160,4 +160,10 @@ font-size:large;
 .card{
   width: 65vw;
 }
+.details-div p{
+font-size:medium;
+}
+.mod-div ul li{
+  font-size: medium;
+}
 }
