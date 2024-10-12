@@ -158,12 +158,21 @@ font-size:large;
   font-size: small;
 }
 .card{
-  width: 65vw;
+  width: 69vw;
 }
 .details-div p{
 font-size:medium;
 }
 .mod-div ul li{
+  font-size: medium;
+}
+.size-small{
+  font-size: small;
+}
+.size-large{
+  font-size: large;
+}
+.size-mid{
   font-size: medium;
 }
 }
