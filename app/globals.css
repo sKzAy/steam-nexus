@@ -113,6 +113,10 @@ font-size:large;
 .ul-div,.details-div,.regis-div{
   width: 40vw;
 }
+.btn a button:hover{
+  background-color:rgb(220 38 38);
+
+}
 
 @keyframes spin{
   from{
@@ -132,18 +136,18 @@ font-size:large;
   width: fit-content;
 }
 .main-p1{
-  font-size:5cap;
+  font-size:4.5cap;
   font-weight: bolder;
 }
 .main-p2{
-    font-size:5cap;
+    font-size:4.5cap;
     font-weight: bolder;
 }
 .mod-div,.details-div{
   width: 90vw;
 }
 .card,.text-7xl{
-  font-size: 2cap;
+  font-size: 1.5cap;
 }
 .quote{
   font-size:xx-small;
@@ -158,7 +162,7 @@ font-size:large;
   font-size: small;
 }
 .card{
-  width: 69vw;
+  width: 75vw;
 }
 .details-div p{
 font-size:medium;
@@ -167,7 +171,7 @@ font-size:medium;
   font-size: medium;
 }
 .size-small{
-  font-size: small;
+  font-size: xx-small;
 }
 .size-large{
   font-size: large;
