@@ -23,7 +23,6 @@ html{
   align-items: center;
 }
 .ul-cont{
-  border:2px solid red;
   width:80vw;
   display: flex;
   justify-content: center;
@@ -48,7 +47,6 @@ html{
 font-size:large;
 }
 .ul-div li a{
-  border: 2px solid red;
   display: inline-block;
 }
   
@@ -151,10 +149,10 @@ font-size:large;
   font-size:80%;
 }
 .nov p{
-  font-size: large;
+  font-size: x-large;
 }
 .nov2 p{
-  font-size:small;
+  font-size: small;
 }
 .days,.hours,.minutes,.seconds{
   font-size: small;
