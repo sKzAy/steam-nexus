@@ -135,4 +135,10 @@ font-size:large;
 .mod-div,.details-div{
   width: 90vw;
 }
+.card .text-7xl{
+  font-size: 5cap;
+}
+.quote{
+  font-size:80%;
+}
 }
