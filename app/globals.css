@@ -153,4 +153,10 @@ font-size:large;
 .nov p{
   font-size: medium;
 }
+.days,.hours,.minutes,.seconds{
+  font-size: small;
+}
+.card{
+  width: 65vw;
+}
 }

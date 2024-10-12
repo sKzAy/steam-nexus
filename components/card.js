@@ -38,10 +38,10 @@ const Card = () => {
   return (<>
     <div className='card-div flex1 mt-20 mb-20'>
         <div className='card flex1'>
-            <div className="p-5  days text-7xl flex text-yellow-500">{days.toString().padStart(2, '0')}<p className='text-xs text-yellow-600'>days</p></div>
-            <div className="p-5  hours text-7xl flex text-yellow-500">{hours.toString().padStart(2, '0')} <p className='text-xs text-yellow-600'>hours</p> </div>
-            <div className="p-5  minutes text-7xl flex text-yellow-500">{minutes.toString().padStart(2, '0')}<p className='text-xs text-yellow-600'>minutes</p></div>
-            <div className="p-5  seconds text-7xl flex text-yellow-500">{seconds.toString().padStart(2,'0')}<p className='text-xs text-yellow-600'>seconds</p></div>
+            <p className="p-5 flex text-yellow-500">{days.toString().padStart(2, '0')}</p><p className='text-xs text-yellow-600'>days</p>
+            <p className="p-5 hours  flex text-yellow-500">{hours.toString().padStart(2, '0')}</p> <p className='text-xs text-yellow-600'>hours</p> 
+            <p className="p-5 minutes  flex text-yellow-500">{minutes.toString().padStart(2, '0')}</p><p className='text-xs text-yellow-600'>minutes</p>
+            <p className="p-5 seconds  flex text-yellow-500">{seconds.toString().padStart(2,'0')}</p><p className='text-xs text-yellow-600'>seconds</p>
         </div>
     </div>
 
