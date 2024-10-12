@@ -24,7 +24,8 @@ html{
   align-items: center;
 }
 .ul-cont{
-  width:100vw;
+  border:2px solid red;
+  width:80vw;
   display: flex;
   justify-content: center;
   align-items: center;
