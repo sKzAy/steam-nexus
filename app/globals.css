@@ -91,13 +91,13 @@ font-size:large;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 20px; */
+  font-size: 5cap;
 }
 .card::after, .card::before{   
   content: "";
   height: 100%;
   width: 100%;
-  background-image:conic-gradient(from var(--angle),red,black,black,black,red,red,black,black,black,red);
+  background-image:conic-gradient(from var(--angle),red,black,black);
   position:absolute;
   top: 50%;
   left: 50%;
@@ -132,11 +132,11 @@ font-size:large;
   width: fit-content;
 }
 .main-p1{
-  font-size:4cap;
+  font-size:6cap;
   font-weight: bolder;
 }
 .main-p2{
-    font-size:4cap;
+    font-size:6cap;
     font-weight: bolder;
 }
 .mod-div,.details-div{

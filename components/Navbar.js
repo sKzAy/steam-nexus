@@ -7,9 +7,9 @@ const Navbar = () => {
         <nav className='flex1'>
             <div className='ul-cont'>
                 <ul className='ul-div'>
-                    <li><a href='#modules'>Modules</a></li>
-                    <li> <a href="#registration">Registration</a></li>
-                    <li><a href="">Schedule</a></li>
+                    <li><a className='underline hover:underline-offset-4 hover:font-extrabold' href='#modules'>Modules</a></li>
+                    <li> <a className='underline hover:underline-offset-4 hover:font-extrabold' href="#registration">Registration</a></li>
+                    <li><a className='underline hover:underline-offset-4 hover:font-extrabold' href="">Schedule</a></li>
                 </ul>
             </div>
         </nav>
