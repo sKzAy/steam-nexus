@@ -4,8 +4,8 @@ import "@/app/globals.css"
 const Modules = () => {
   return (
     <div  id='modules'>
-      <div className="border-2 border-red-500 about-event flex justify-center align-middle mt-10 ">
-    <div className="mod-div text-white border-4 border-r-4 border-red-600 rounded-xl p-10">
+      <div className=" about-event flex1 mt-10 ">
+    <div className="mod-div text-white border-2 border-r-4 border-red-600 rounded-xl p-10">
       <h2 className='font-extrabold text-2xl text-yellow-500'>Modules:</h2>
         <ul>
             <li>The Euler Expedition (Maths)</li>
