@@ -151,7 +151,10 @@ font-size:large;
   font-size:80%;
 }
 .nov p{
-  font-size: medium;
+  font-size: large;
+}
+.nov2 p{
+  font-size:small;
 }
 .days,.hours,.minutes,.seconds{
   font-size: small;

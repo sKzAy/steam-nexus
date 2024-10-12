@@ -7,7 +7,6 @@ const Navbar = () => {
         <nav className='flex1'>
             <div className='ul-cont'>
                 <ul className='ul-div'>
-                    <li> <a href=''>Steam Nexus</a> </li>
                     <li><a href='#modules'>Modules</a></li>
                     <li> <a href="#registration">Registration</a></li>
                     <li><a href="">Schedule</a></li>
