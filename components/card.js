@@ -36,8 +36,8 @@ const Card = () => {
       return () => clearInterval(intervalId);
     }, []);
   return (<>
-    <div className='card flex justify-center  m-20 align-middle '>
-        <div className='flex justify-center align-middle'>
+    <div className='card-div flex justify-center mt-20 mb-20 align-middle '>
+        <div className='card flex justify-center align-middle'>
             <div className="  days text-7xl flex text-yellow-500">{days.toString().padStart(2, '0')}<p className='text-xs text-yellow-600'>days</p></div>
             <div className="  hours text-7xl flex text-yellow-500">{hours.toString().padStart(2, '0')} <p className='text-xs text-yellow-600'>hours</p> </div>
             <div className="  minutes text-7xl flex text-yellow-500">{minutes.toString().padStart(2, '0')}<p className='text-xs text-yellow-600'>minutes</p></div>

@@ -4,8 +4,8 @@ import Link from 'next/link'
 const Registration = () => {
     return (
         <>
-            <div id='registration' className="about-event flex justify-center align-middle mt-10 ">
-                <div className=" text-white w-[40vw] border-4 border-r-4 border-red-600 rounded-xl p-10"><h2 className='font-extrabold text-2xl text-yellow-500' id='modules'>Registration:</h2>
+            <div id='registration' className="about-event flex justify-center align-middle mt-10 border-2 border-red-500">
+                <div className=" mod-div text-white  border-4 border-r-4 border-red-600 rounded-xl p-10"><h2 className='font-extrabold text-2xl text-yellow-500' id='modules'>Registration:</h2>
                     <h3 className='text-red-500'>Registration fee: </h3>
                     <ul>
                         <li> Fee Per Delegate: Rs.2000+2000 (Early Bird)</li>

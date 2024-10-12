@@ -4,14 +4,78 @@
 
 *{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
-
-
-
+html{
+  background-color: black;
+}
 @property --angle{
   syntax: "<angle>";
   initial-value: 0deg;
   inherits: false;
+}
+.ul-cont{
+  width:100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 5vh;
+
+
+}
+.ul-div{
+  display: flex;
+  justify-content: center;
+ align-items: center;
+ gap: 5vw;
+ text-decoration: underline;
+
+}
+.mod-div{
+  width:40vw;
+}
+.ul-div li a:hover{
+font-size:large;
+}
+.ul-div li a{
+  border: 2px solid red;
+  display: inline-block;
+}
+  
+.main1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main1-child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  margin-bottom: 2vh;
+}
+.main-p1{
+  --tw-text-opacity: 1;
+  color: rgb(234 179 8 / var(--tw-text-opacity));
+  font-size:10cap;
+  font-weight: bolder;
+}
+.main-p2{
+  --tw-text-opacity: 1;
+    color: rgb(185 28 28 / var(--tw-text-opacity));
+    font-size:10cap;
+    font-weight: bolder;
+}
+
+.steam-cont{
+  width: 100vw;
+}
+.card-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 .card{
   color: white;
@@ -20,24 +84,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  /* padding: 20px; */
 }
 .card::after, .card::before{   
   content: "";
-  height: 103%;
-  width: 102%;
-  background-image:conic-gradient(from var(--angle),black,black,rgb(255, 0, 0),black,black);
+  height: 100%;
+  width: 100%;
+  background-image:conic-gradient(from var(--angle),red,black,black,black,red,red,black,black,black,red);
   position:absolute;
   top: 50%;
   left: 50%;
   translate: -50% -50%;
   z-index: -1;
   border-radius: 10px;
-  animation: 10s spin linear infinite;
+  animation: 20s spin linear infinite;
 }
 .card::before{
   filter: blur(1.5rem);
   opacity: 0.25;
+}
+.ul-div,.details-div,.regis-div{
+  width: 40vw;
 }
 
 @keyframes spin{
@@ -48,4 +115,24 @@
       --angle: 360deg
   }
 }
-/* text-white flex justify-center gap-14 align-middle h-[30vh] w-[80vw] border-4 rounded-xl border-red-600 */
+
+
+@media only screen and (max-width: 768px) {
+.container-nav{
+  gap: 10px;
+}
+.ul-div li a{
+  width: fit-content;
+}
+.main-p1{
+  font-size:7cap;
+  font-weight: bolder;
+}
+.main-p2{
+    font-size:7cap;
+    font-weight: bolder;
+}
+.mod-div,.details-div{
+  width: 90vw;
+}
+}
