@@ -2,12 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
 *{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-html{
-  background-color: black;
-}
+
 @property --angle{
   syntax: "<angle>";
   initial-value: 0deg;
@@ -116,6 +115,13 @@ font-size:large;
 .btn a button:hover{
   background-color:rgb(220 38 38);
 
+}
+.bottom-fixed{
+  background-color: rgb(30, 0, 0);
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 @keyframes spin{
