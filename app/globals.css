@@ -2,26 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+*{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+
+
+@property --angle{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+.card{
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.card::after, .card::before{   
+  content: "";
+  height: 103%;
+  width: 102%;
+  background-image:conic-gradient(from var(--angle),black,black,rgb(255, 0, 0),black,black);
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  border-radius: 10px;
+  animation: 10s spin linear infinite;
+}
+.card::before{
+  filter: blur(1.5rem);
+  opacity: 0.25;
+}
+
+@keyframes spin{
+  from{
+      --angle: 0deg
+  }
+  to{
+      --angle: 360deg
   }
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+/* text-white flex justify-center gap-14 align-middle h-[30vh] w-[80vw] border-4 rounded-xl border-red-600 */
