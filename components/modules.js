@@ -3,7 +3,7 @@ import "@/app/globals.css"
 
 const Modules = () => {
   return (
-    <div  id='modules'>
+    <div  id='modules' className='flex1'>
       <div className=" about-event flex1 mt-10 ">
     <div className="mod-div text-white border-2 border-r-4 border-red-600 rounded-xl p-10">
       <h2 className='font-extrabold text-2xl text-yellow-500'>Modules:</h2>

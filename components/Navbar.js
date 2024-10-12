@@ -4,7 +4,7 @@ import "@/app/globals.css"
 
 const Navbar = () => {
   return (
-        <nav>
+        <nav className='flex1'>
             <div className='ul-cont'>
                 <ul className='ul-div'>
                     <li> <a href=''>Steam Nexus</a> </li>

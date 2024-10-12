@@ -20,11 +20,9 @@ const Registration = () => {
                         <li>Registrations close: 31st October</li>
                     </ul>
                     <div className="btn">
-                    <Link href="www.google.com">
+                    {/* <Link href="www.google.com">
                     <button>Registration form</button>
-                    
-
-                    </Link>
+                    </Link> */}
                     </div>
                 </div>
             </div>
