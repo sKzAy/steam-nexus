@@ -122,6 +122,7 @@ font-size:large;
 
 }
 .bottom-fixed{
+  margin-top:2vh;
   background-color: rgb(30, 0, 0);
     position: sticky;
     bottom: 0;
