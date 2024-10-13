@@ -111,6 +111,9 @@ font-size:large;
   filter: blur(1.5rem);
   opacity: 0.25;
 }
+.about-event{
+ margin-top: 2.5rem;
+}
 .ul-div,.details-div,.regis-div{
   width: 40vw;
 }
@@ -125,11 +128,11 @@ font-size:large;
     left: 0;
     width: 100%;
 }
-hide{
+.hide{
   opacity: 0;
   transition: all 1s;
 }
-show{
+.show{
   opacity: 1;
 }
 
@@ -189,15 +192,18 @@ show{
   padding-top: 5vh;
   padding-bottom: 5vh;
 }
+.about-event{
+  margin-top: 1rem;
+ }
 .venue{
   padding-bottom: 0px;
 }
 .quote{
-  padding: 0;
+  display: none;
 }
 
 .size-small{
-  font-size:100%;
+  font-size:80%;
 }
 .size-semismall{
   font-size: small;
