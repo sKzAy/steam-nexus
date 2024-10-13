@@ -5,7 +5,7 @@ import "@/app/globals.css"
 const Navbar = () => {
   return (
         <nav className='flex1'>
-            <div className='ul-cont'>
+            <div className='ul-cont' data-aos="fade-up">
                 <ul className='ul-div'>
                     <li><a className='underline hover:underline-offset-8 hover:font-extrabold' href='#modules'>Modules</a></li>
                     <li> <a className='underline hover:underline-offset-8 hover:font-extrabold' href="#registration">Registration</a></li>

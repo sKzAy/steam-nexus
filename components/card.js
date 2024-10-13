@@ -36,7 +36,7 @@ const Card = () => {
       return () => clearInterval(intervalId);
     }, []);
   return (<>
-    <div className='card-div flex1'>
+    <div data-aos="fade-up" className='card-div flex1'>
         <div className='card flex1'>
             <p className="p-2 flex text-yellow-500">{days.toString().padStart(2, '0')}</p><p className='text-xs text-yellow-600'>days</p>
             <p className="p-2 hours text-yellow-500">{hours.toString().padStart(2, '0')}</p> <p className='text-xs text-yellow-600'>hours</p> 

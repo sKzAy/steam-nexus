@@ -1,5 +1,8 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import Aos from "aos";
+import AosComponent from "@/components/Aos";
+import "aos/dist/aos.css"
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -22,9 +25,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+
       >
+        <AosComponent/>
         {children}
       </body>
     </html>
+    
   );
 }
