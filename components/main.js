@@ -10,7 +10,7 @@ const MainContent = () => {
     <div>
     <div data-aos="fade-up" className='main1'>
         <div className='main1-child'>
-            <p className='main-p1 '>Steam-</p><p className='main-p2'>Nexus</p>
+            <p className='main-p1 '>STEAM-</p><p className='main-p2'>Nexus&apos;24</p>
             </div>
         </div>
        <div data-aos="fade-up" className='flex1 nov'><p className='text-yellow-500 text-4xl'>Nove</p> <p className='text-red-700 text-4xl'>mber &nbsp;</p><p className='text-yellow-500 text-4xl'>1st &nbsp;&</p><p className='text-red-700 text-4xl'>&nbsp; 2nd</p></div>
