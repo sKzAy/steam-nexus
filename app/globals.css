@@ -71,7 +71,7 @@ font-size:large;
   --tw-text-opacity: 1;
     color: rgb(185 28 28 / var(--tw-text-opacity));
     font-size:10cap;
-    font-weight: bolder;
+    font-weight: bolder10
 }
 
 .steam-cont{
@@ -81,6 +81,8 @@ font-size:large;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 
 }
 .card{
@@ -179,7 +181,8 @@ show{
  padding: 0; 
 }
 .card-div{
-  padding: 0;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 .venue{
   padding-bottom: 0px;
@@ -197,6 +200,9 @@ font-size:medium;
 }
 .size-small{
   font-size:25%;
+}
+.size-semismall{
+  font-size: small;
 }
 .size-large{
   font-size: large;
