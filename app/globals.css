@@ -153,8 +153,10 @@ show{
 .main-p1{
   font-size:4.5cap;
   font-weight: bolder;
+  padding-top: 0.5vh;
 }
 .main-p2{
+  padding-top: 0.5vh;
     font-size:4.5cap;
     font-weight: bolder;
 }
