@@ -16,9 +16,7 @@
   display: flex;
   flex-direction: column;
 }
-.image{
-  width: 40px;
-}
+
 .flex1{
   display: flex;
   justify-content: center;
@@ -182,6 +180,9 @@ font-size:large;
 .container-nav{
   gap: 10px;
 
+}
+.image{
+  width: 40px;
 }
 .ul-div li a{
   width: fit-content;
