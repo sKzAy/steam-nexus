@@ -7,8 +7,8 @@ const Modules = () => {
 
   
   return (
-    <div data-aos="fade-left" id='modules' className='flex1'>
-      <div className=" about-event flex1 mt-10 ">
+    <div id='modules' className='flex1'>
+      <div  data-aos="zoom-in" className=" about-event flex1 mt-10 ">
     <div className="mod-div text-white border-2 border-r-4 border-red-600 rounded-xl p-10">
       <h2 className='font-extrabold text-2xl text-yellow-500 pb-4 size-large'>Modules:</h2>
         <ul>
