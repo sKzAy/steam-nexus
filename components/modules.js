@@ -16,63 +16,32 @@ const Modules = () => {
 
   
   return (<>
-  <div className="abbu">
-  <div  data-aos="zoom-in" className="car-cont">
-    <div className='car-div border-2 border-red-500 flex1 w-[80vw]' >
-    <Carousel className="py-32 car w-[30vw]" >
-      <div className='flex1 mb-5'>
-      <p className='size-large text-3xl text-yellow-500'>Modules</p>
-      </div>
-  <CarouselContent className="car-content">
-    <CarouselItem className="car-item flex1 h-[30vh] ">
-    <div className='car-item-div flex1 flex-col'><p className='text-red-600 size-medium text-center'>The Euler Expedition (Maths)</p>
-      <p className='text-center size-small'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit hic sequi beatae corporis amet, saepe rerum omnis molestiae ab esse.</p>
+  <div className=' bigboy text-yellow-500 mb-14'>
+    <div className='flex1'>
+    <h2 className='cap3'>Modules</h2>
     </div>
-       </CarouselItem>
-    <CarouselItem className="flex1  h-[30vh]">
-    <div className='flex1 flex-col'><p className='text-red-600 size-medium text-center'>The Sherlock Solution (Law & Crime)</p>
-      <p className='text-center size-small'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit hic sequi beatae corporis amet, saepe rerum omnis molestiae ab esse.</p>
-    </div>
-       </CarouselItem>
-    <CarouselItem className="flex1 h-[30vh]">
-    <div className='flex1 flex-col'><p className='text-red-600 size-medium text-center'> The Hawking Hypothesis (Physics)</p>
-      <p className='text-center size-small'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit hic sequi beatae corporis amet, saepe rerum omnis molestiae ab esse.</p>
-    </div>
-       </CarouselItem>
-    <CarouselItem className="flex1 h-[30vh]">
-    <div className='flex1 flex-col'><p className='text-red-600 size-medium text-center'> The Gates Gateway (Computer Science)</p>
-      <p className='text-center size-small'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit hic sequi beatae corporis amet, saepe rerum omnis molestiae ab esse.</p>
-    </div>
-       </CarouselItem>
-    <CarouselItem className="flex1 h-[30vh]">
-    <div className='flex1 flex-col'><p className='text-red-600 size-medium text-center'> The Edison Edit (Media)</p>
-      <p className='text-center size-small'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit hic sequi beatae corporis amet, saepe rerum omnis molestiae ab esse.</p>
-    </div>
-       </CarouselItem>
-    <CarouselItem className="flex1 h-[30vh]">
-    <div className='flex1 flex-col'><p className='text-red-600 size-medium text-center'> The Picasso Puzzle (Art)</p>
-      <p className='text-center size-small'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit hic sequi beatae corporis amet, saepe rerum omnis molestiae ab esse.</p>
-    </div>
-       </CarouselItem>
-    <CarouselItem className="flex1 h-[30vh]">
-    <div className='flex1 flex-col'><p className='text-red-600 size-medium text-center'>The da Vinci Dare (Surprise Module)</p>
-      <p className='text-center size-small'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit hic sequi beatae corporis amet, saepe rerum omnis molestiae ab esse.</p>
-    </div>
-       </CarouselItem>
-    <CarouselItem className="flex1 h-[30vh]">
-    <div className='flex1 flex-col'><p className='text-red-600 size-medium text-center'> The Musk Marketplace (Business)</p>
-      <p className='text-center'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit hic sequi beatae corporis amet, saepe rerum omnis molestiae ab esse.</p>
-    </div>
-       </CarouselItem>
-   
-
+    
+  <div className="carouselbox">
+  <div className="carousel flex1 border-2 border-red-600">
+  <Carousel className=" car  w-[30vw]">
+  <CarouselContent>
+    <CarouselItem className='item flex1 text-2xl text-center'> The Euler Expedition (Maths)</CarouselItem>
+    <CarouselItem className="item flex1 text-2xl text-center"> The Musk Marketplace (Business)</CarouselItem>
+    <CarouselItem className="item flex1 text-2xl text-center"> The Sherlock Solution (Law & Crime)</CarouselItem>
+    <CarouselItem className="item flex1 text-2xl text-center"> The Hawking Hypothesis (Physics)</CarouselItem>
+    <CarouselItem className="item flex1 text-2xl text-center">The Gates Gateway (Computer Science) </CarouselItem>
+    <CarouselItem className="item flex1 text-2xl text-center">  The Edison Edit (Media)</CarouselItem>
+    <CarouselItem className="item flex1 text-2xl text-center"> The Picasso Puzzle (Art) </CarouselItem>
+    <CarouselItem className="item flex1 text-2xl text-center"> The da Vinci Dare (Surprise Module)</CarouselItem>
   </CarouselContent>
   <CarouselPrevious className="bg-black" />
-  <CarouselNext className="bg-black" />
- </Carousel>
+  <CarouselNext className='bg-black' />
+</Carousel>
 </div>
 </div>
 </div>
+
+ 
 </>
   )
 }
