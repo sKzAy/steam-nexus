@@ -6,7 +6,7 @@ const Registration = () => {
     return (
         <>
             <div id='registration' className="about-event flex1 mt-10 ">
-                <div className=" mod-div text-white rounded-xl border-2 border-red-500 p-10"><h2 className='font-extrabold text-2xl text-yellow-500' id='modules size-mid'>Registration:</h2>
+                <div className=" mod-div text-white rounded-xl border-2 border-red-500 p-10"><h2 className='font-extrabold text-2xl text-yellow-500 size-large' id='modules '>Registration:</h2>
                     <h3 className='text-red-500 pb-4 pt-4 size-semismall'>Registration fee: </h3>
                     <ul>
                         <li className='size-small'> Fee Per Delegate: Rs.2000+2000 (Early Bird)</li>
