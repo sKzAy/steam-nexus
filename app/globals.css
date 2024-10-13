@@ -131,6 +131,20 @@ font-size:large;
     left: 0;
     width: 100%;
 }
+.car-div{
+  height: 70vh;
+  width: 40vw;
+  color: white;
+  border-radius: 10px;
+  font-size: medium;
+}
+.car-cont{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @keyframes spin{
   from{
@@ -143,8 +157,10 @@ font-size:large;
 
 
 @media only screen and (max-width: 600px) {
+  
 .container-nav{
   gap: 10px;
+
 }
 .ul-div li a{
   width: fit-content;
@@ -211,8 +227,10 @@ font-size:large;
   font-size: medium;
 }
 .car-div{
-  width: 75vw;
+  width: 90vw;
 }
+
+
 
 }
 
@@ -274,25 +292,7 @@ font-size:large;
 }
 
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-}
-.car-div{
-  height: 70vh;
-  width: 40vw;
-  color: white;
-  border-radius: 10px;
-  font-size: larger;
-}
-.car-cont{
-  margin-top: 30px;
-  margin-bottom: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
+
+
+

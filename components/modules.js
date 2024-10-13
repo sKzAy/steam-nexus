@@ -16,51 +16,52 @@ const Modules = () => {
 
   
   return (<>
+  <div className="abbu">
   <div  data-aos="zoom-in" className="car-cont">
-    <div className='car-div border-2 border-red-500 flex1' >
-    <Carousel className="w-[30vw]" >
+    <div className='car-div border-2 border-red-500 flex1 w-[80vw]' >
+    <Carousel className="py-32 car w-[30vw]" >
       <div className='flex1 mb-5'>
       <p className='size-large text-3xl text-yellow-500'>Modules</p>
       </div>
-  <CarouselContent>
-    <CarouselItem className="flex1 h-[30vh]">
-    <div className='flex1 flex-col'><p className='text-red-600 size-medium'>The Euler Expedition (Maths)</p>
+  <CarouselContent className="car-content">
+    <CarouselItem className="car-item flex1 h-[30vh] ">
+    <div className='car-item-div flex1 flex-col'><p className='text-red-600 size-medium text-center'>The Euler Expedition (Maths)</p>
+      <p className='text-center size-small'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit hic sequi beatae corporis amet, saepe rerum omnis molestiae ab esse.</p>
+    </div>
+       </CarouselItem>
+    <CarouselItem className="flex1  h-[30vh]">
+    <div className='flex1 flex-col'><p className='text-red-600 size-medium text-center'>The Sherlock Solution (Law & Crime)</p>
       <p className='text-center size-small'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit hic sequi beatae corporis amet, saepe rerum omnis molestiae ab esse.</p>
     </div>
        </CarouselItem>
     <CarouselItem className="flex1 h-[30vh]">
-    <div className='flex1 flex-col'><p className='text-red-600 size-medium'>The Sherlock Solution (Law & Crime)</p>
+    <div className='flex1 flex-col'><p className='text-red-600 size-medium text-center'> The Hawking Hypothesis (Physics)</p>
       <p className='text-center size-small'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit hic sequi beatae corporis amet, saepe rerum omnis molestiae ab esse.</p>
     </div>
        </CarouselItem>
     <CarouselItem className="flex1 h-[30vh]">
-    <div className='flex1 flex-col'><p className='text-red-600 size-medium'> The Hawking Hypothesis (Physics)</p>
+    <div className='flex1 flex-col'><p className='text-red-600 size-medium text-center'> The Gates Gateway (Computer Science)</p>
       <p className='text-center size-small'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit hic sequi beatae corporis amet, saepe rerum omnis molestiae ab esse.</p>
     </div>
        </CarouselItem>
     <CarouselItem className="flex1 h-[30vh]">
-    <div className='flex1 flex-col'><p className='text-red-600 size-medium'> The Gates Gateway (Computer Science)</p>
+    <div className='flex1 flex-col'><p className='text-red-600 size-medium text-center'> The Edison Edit (Media)</p>
       <p className='text-center size-small'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit hic sequi beatae corporis amet, saepe rerum omnis molestiae ab esse.</p>
     </div>
        </CarouselItem>
     <CarouselItem className="flex1 h-[30vh]">
-    <div className='flex1 flex-col'><p className='text-red-600 size-medium'> The Edison Edit (Media)</p>
+    <div className='flex1 flex-col'><p className='text-red-600 size-medium text-center'> The Picasso Puzzle (Art)</p>
       <p className='text-center size-small'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit hic sequi beatae corporis amet, saepe rerum omnis molestiae ab esse.</p>
     </div>
        </CarouselItem>
     <CarouselItem className="flex1 h-[30vh]">
-    <div className='flex1 flex-col'><p className='text-red-600 size-medium'> The Picasso Puzzle (Art)</p>
+    <div className='flex1 flex-col'><p className='text-red-600 size-medium text-center'>The da Vinci Dare (Surprise Module)</p>
       <p className='text-center size-small'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit hic sequi beatae corporis amet, saepe rerum omnis molestiae ab esse.</p>
     </div>
        </CarouselItem>
     <CarouselItem className="flex1 h-[30vh]">
-    <div className='flex1 flex-col'><p className='text-red-600 size-medium'>The da Vinci Dare (Surprise Module)</p>
-      <p className='text-center size-small'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit hic sequi beatae corporis amet, saepe rerum omnis molestiae ab esse.</p>
-    </div>
-       </CarouselItem>
-    <CarouselItem className="flex1 h-[30vh]">
-    <div className='flex1 flex-col'><p className='text-red-600 size-medium'> The Musk Marketplace (Business)</p>
-      <p className='text-center size-small'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit hic sequi beatae corporis amet, saepe rerum omnis molestiae ab esse.</p>
+    <div className='flex1 flex-col'><p className='text-red-600 size-medium text-center'> The Musk Marketplace (Business)</p>
+      <p className='text-center'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit hic sequi beatae corporis amet, saepe rerum omnis molestiae ab esse.</p>
     </div>
        </CarouselItem>
    
@@ -69,6 +70,7 @@ const Modules = () => {
   <CarouselPrevious className="bg-black" />
   <CarouselNext className="bg-black" />
  </Carousel>
+</div>
 </div>
 </div>
 </>
