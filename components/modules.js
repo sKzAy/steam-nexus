@@ -16,7 +16,7 @@ const Modules = () => {
 
   
   return (<>
-  <div className=' bigboy text-yellow-500 mb-14'>
+  <div data-aos="zoom-in" className=' bigboy text-yellow-500 mb-14'>
     <div className='flex1'>
     <h2 className='cap3'>Modules</h2>
     </div>
