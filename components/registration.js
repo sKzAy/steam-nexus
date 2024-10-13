@@ -7,12 +7,12 @@ const Registration = () => {
         <>
             <div data-aos="zoom-in" id='registration' className=" flex1 ">
                 <div className=" mod-div text-white rounded-xl border-2 border-red-500 p-10"><h2 className='font-extrabold text-2xl text-yellow-500 size-large' id='modules '>Registration:</h2>
-                    <h3 className='text-red-500 pb-4 pt-4 size-semismall'>Registration fee: </h3>
+                    <h3 className='text-red-500 pb-4 pt-4 size-semismall'>Fee: </h3>
                     <ul>
                         <li className='size-small'> Fee Per Delegate: Rs.2000+2000 (Early Bird)</li>
                         <li className='size-small'>Fee Per Delegate: Rs.2500 + 2500 (Normal Registrations)</li>
                     </ul>
-                    <h3 className='text-red-500 pt-4 pb-4 size-semismall'>Registration Details:</h3>
+                    <h3 className='text-red-500 pt-4 pb-4 size-semismall'>Details:</h3>
                     <ul>
                         <li className='size-small'> Each delegation would comprise of 2-6 delegates</li>
                         <li className='size-small'>Registrations open: 11th October</li>

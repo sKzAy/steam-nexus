@@ -3,8 +3,9 @@ import Image from 'next/image'
 import "@/app/globals.css"
 
 const Navbar = () => {
-  return (
+  return (<>
         <nav className='flex1'>
+        
             <div className='ul-cont' data-aos="fade-up">
                 <ul className='ul-div'>
                     <li><a className='underline hover:underline-offset-8 hover:font-extrabold' href='#modules'>Modules</a></li>
@@ -13,7 +14,7 @@ const Navbar = () => {
                 </ul>
             </div>
         </nav>
-      
+</>
   )
 }
 

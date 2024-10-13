@@ -10,10 +10,13 @@ const MainContent = () => {
     <div>
     <div data-aos="fade-up" className='main1'>
         <div className='main1-child'>
-            <p className='main-p1 '>STEAM-</p><p className='main-p2'>Nexus&apos;24</p>
+        <div className='inline-flex pt-5'>
+        <a className='text-white inline-flex text-xl pb-6' href="https://steam-nexus.vercel.app/"><img className='mr-3
+        rounded-full text-center image' src="/images/cropped-logo.jpg" width={70} height={70} alt="Error" /></a></div><p className='main-p1 '>STEAM-</p><p className='main-p2'>Nexus&apos;24</p>
             </div>
         </div>
-       <div data-aos="fade-up" className='flex1 nov'><p className='text-yellow-500 text-4xl'>Nove</p> <p className='text-red-700 text-4xl'>mber &nbsp;</p><p className='text-yellow-500 text-4xl'>1st &nbsp;&</p><p className='text-red-700 text-4xl'>&nbsp; 2nd</p></div>
+       <div data-aos="fade-up" className='flex1 nov'><p className='text-yellow-500 text-4xl'>Nove</p> <p className='text-red-700 text-4xl'>mber &nbsp;</p><p className='text-yellow-500 text-4xl'>2nd &nbsp;&</p><p className='text-red-700 text-4xl'>&nbsp; 3rd</p></div>
+           
        <div data-aos="fade-up" className=' venue flex1 nov2'><p className='text-yellow-500 text-center '>Venue: Beaconhouse Potohar Campus A levels Building & Ground</p></div>
         <div><Card/></div>
 
