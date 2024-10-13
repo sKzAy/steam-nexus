@@ -182,19 +182,19 @@ font-size:large;
 
 }
 .image{
-  width: 40px;
+  width: 35px;
 }
 .ul-div li a{
   width: fit-content;
 }
 .main-p1{
-  font-size:4.5cap;
+  font-size:4cap;
   font-weight: bolder;
   padding-top: 0vh;
 }
 .main-p2{
   padding-top: 0vh;
-    font-size:4.5cap;
+    font-size:4cap;
     font-weight: bolder;
 }
 .main1-child{
