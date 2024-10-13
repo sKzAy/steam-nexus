@@ -191,15 +191,8 @@ show{
   padding: 0;
 }
 
-
-.details-div p{
-font-size:medium;
-}
-.mod-div ul li{
-  font-size: medium;
-}
 .size-small{
-  font-size:25%;
+  font-size:75%;
 }
 .size-semismall{
   font-size: small;
