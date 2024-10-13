@@ -12,7 +12,7 @@ const MainContent = () => {
         <div className='main1-child'>
         <div className='inline-flex pt-5'>
         <a className='text-white inline-flex text-xl pb-6' href="https://steam-nexus.vercel.app/"><img className='mr-3
-        rounded-full text-center image' src="/images/cropped-logo.jpg" width={70} height={70} alt="Error" /></a></div><p className='main-p1 '>STEAM-</p><p className='main-p2'>Nexus&apos;24</p>
+        rounded-full text-center image' src="/images/cropped-logo.jpg" width={70} height={70} alt="Error" /></a></div><p className='main-p1 '>STEAM-</p><p className='main-p2'>Nexus &apos; 24</p>
             </div>
         </div>
        <div data-aos="fade-up" className='flex1 nov'><p className='text-yellow-500 text-4xl'>Nove</p> <p className='text-red-700 text-4xl'>mber &nbsp;</p><p className='text-yellow-500 text-4xl'>2nd &nbsp;&</p><p className='text-red-700 text-4xl'>&nbsp; 3rd</p></div>
@@ -25,7 +25,7 @@ const MainContent = () => {
         </p><p className=' text-center font-bold text-red-500 pl-3'>Albert Einstein</p></div>
     </div>
     <div data-aos="fade-up" className="about-event flex1   ">
-    <div className="details-div text-white border-2 border-red-500 rounded-xl p-10"><h2 className='font-extrabold text-2xl text-yellow-500 pb-4 size-large'>Event Details:</h2><p className='size-small'><b className='font-extrabold text-xl text-yellow-500'>STEAM-</b><b className='font-extrabold text-xl text-red-600'>Nexus'24</b> aims to foster a culture of innovation and hands-on learning at Beaconhouse Potohar Campus by empowering students to apply theoretical STEM concepts to real-world challenges. As the college&apos;s inaugural event of its kind, it seeks to inspire creativity, critical thinking, and collaboration, preparing a new generation of problem-solvers for a dynamic technological landscape. Collaborating with professionals from organizations like NICAT and the NUST Science Society, the fest will offer interactive workshops, challenges, and competitions that encourage deep thinking and innovative application of knowledge, embodying the philosophy that true education transcends rote memorization.</p></div></div>
+    <div className="details-div text-white border-2 border-red-500 rounded-xl p-10"><h2 className='font-extrabold text-2xl text-yellow-500 pb-4 size-large'>Event Details:</h2><p className='size-small'><b className='font-extrabold text-xl text-yellow-500'>STEAM-</b><b className='font-extrabold text-xl text-red-600'>Nexus&apos;24</b> aims to foster a culture of innovation and hands-on learning at Beaconhouse Potohar Campus by empowering students to apply theoretical STEM concepts to real-world challenges. As the college&apos;s inaugural event of its kind, it seeks to inspire creativity, critical thinking, and collaboration, preparing a new generation of problem-solvers for a dynamic technological landscape. Collaborating with professionals from organizations like NICAT and the NUST Science Society, the fest will offer interactive workshops, challenges, and competitions that encourage deep thinking and innovative application of knowledge, embodying the philosophy that true education transcends rote memorization.</p></div></div>
     <div id='modules' className='h-0 w-0'></div>
     <Modules/>
     <Registration/>
