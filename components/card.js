@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import React from 'react'
 import "@/app/globals.css"
 
-const targetDate = new Date('2024-11-02T03:00:00.000Z'); // 8am November 2nd, 2024 in Islamabad (UTC+5)
+const targetDate = new Date('November 2,2024 08:00:00'); // 8am November 2nd, 2024 in Islamabad (UTC+5)
 
 const Card = () => {
     const [days, setDays] = useState(0);
