@@ -153,12 +153,15 @@ show{
 .main-p1{
   font-size:4.5cap;
   font-weight: bolder;
-  padding-top: 0.5vh;
+  padding-top: 0vh;
 }
 .main-p2{
-  padding-top: 0.5vh;
+  padding-top: 0vh;
     font-size:4.5cap;
     font-weight: bolder;
+}
+.main1-child{
+  padding-top: 0;
 }
 .mod-div,.details-div{
   width: 90vw;
@@ -194,7 +197,7 @@ show{
 }
 
 .size-small{
-  font-size:75%;
+  font-size:100%;
 }
 .size-semismall{
   font-size: small;

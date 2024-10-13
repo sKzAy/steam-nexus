@@ -20,7 +20,7 @@ const Registration = () => {
                         <li className='size-small'>Registrations close: 31st October</li>
                     </ul>
                     <div className="btn flex1 pt-5">
-                    <a target ="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd-qi-FgdnXs7dvc3YbZiZwuvoDN9ps5KTmALIGov_WGrz03g/viewform"><button className=' button border-2 border-red-600 rounded-3xl p-3'>Click Here to Register</button></a>
+                    <a target ="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd-qi-FgdnXs7dvc3YbZiZwuvoDN9ps5KTmALIGov_WGrz03g/viewform"><button className=' button border-2 border-red-600 rounded-3xl p-3 text-center'>Click Here to Register</button></a>
                     </div>
                 </div>
             </div>
