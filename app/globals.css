@@ -12,6 +12,10 @@
   initial-value: 0deg;
   inherits: false;
 }
+html{
+ scroll-behavior: smooth !important; 
+}
+
 .flex2{
   display: flex;
   flex-direction: column;
