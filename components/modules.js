@@ -18,11 +18,11 @@ const Modules = () => {
   return (<>
   <div data-aos="zoom-in" className=' bigboy text-yellow-500 mb-14'>
     <div className='flex1'>
-    <h2 className='cap3'>Modules</h2>
+    <h2 className='cap3 font-extrabold'>Modules</h2>
     </div>
     
   <div className="carouselbox">
-  <div className="carousel flex1 border-2 border-red-600">
+  <div className="carousel flex1 border-2 border-red-500">
   <Carousel className=" car  w-[30vw]">
   <CarouselContent>
     <CarouselItem className='item flex1 text-2xl text-center'> The Euler Expedition (Maths)</CarouselItem>
