@@ -10,6 +10,7 @@ const Navbar = () => {
                 <ul className='ul-div'>
                     <li><a className='underline hover:underline-offset-8 hover:font-extrabold' href='#modules'>Modules</a></li>
                     <li> <a className='underline hover:underline-offset-8 hover:font-extrabold' href="#registration">Registration</a></li>
+                    <li> <a className='underline hover:underline-offset-8 hover:font-extrabold' href="#schedule">Schedule</a></li>
                     <li><a className='underline hover:underline-offset-8 hover:font-extrabold' target='_blank' href="https://www.instagram.com/steamnexus24/">Instagram</a></li>
                 </ul>
             </div>

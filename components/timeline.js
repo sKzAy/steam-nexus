@@ -161,9 +161,11 @@ export function TimelineDemo() {
       
     
   ];
-  return (
+  return (<>
+  <div id="schedule"></div>
     (<div className="w-full">
       <Timeline data={data} />
     </div>)
+    </>
   );
 }
