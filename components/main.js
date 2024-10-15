@@ -4,15 +4,21 @@ import Modules from './modules'
 import Registration from './registration'
 import "@/app/globals.css"
 
+
 const MainContent = () => {
   return (<>
 
     <div>
     <div data-aos="fade-up" className='main1'>
+      
         <div className='main1-child'>
+        
         <div className='inline-flex pt-5'>
+        
         <a className='text-white inline-flex text-xl pb-6' href="https://steam-nexus.vercel.app/"><img className='mr-3
-        rounded-full text-center image' src="/images/cropped-logo.jpg" width={70} height={70} alt="Error" /></a></div><p className='main-p1 '>STEAM-</p><p className='main-p2'>Nexus &apos; 24</p>
+        rounded-full text-center image' src="/images/cropped-logo.jpg" width={70} height={70} alt="Error" /></a>
+        
+        </div><p className='main-p1 '> STEAM-</p><p className='main-p2'>Nexus &apos; 24</p>
             </div>
         </div>
        <div data-aos="fade-up" className='flex1 nov'><p className='text-yellow-500 text-4xl'>Nove</p> <p className='text-red-700 text-4xl'>mber &nbsp;</p><p className='text-yellow-500 text-4xl'>2nd &nbsp;&</p><p className='text-red-700 text-4xl'>&nbsp; 3rd</p></div>
