@@ -152,7 +152,7 @@ export function TimelineDemo() {
         title: "Ending",
         content: (
           <div className="text-4xl text-yellow-500">
-            <span className="text-white text-4xl">Closing Ceremony starts at <span className="text-yellow-500 text-4xl">5:15 PM </span>and Ends at</span>   6:00 PM
+            <span className="text-white text-2xl">Closing Ceremony starts at <span className="text-yellow-500 text-2xl">5:15 PM </span>and Ends at</span>   6:00 PM
           </div>
         ),
       },

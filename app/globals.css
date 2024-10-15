@@ -273,7 +273,9 @@ font-size:large;
 .cap2{
   font-size: 1.5cap;
 }
-
+.divider{
+  display: none;
+}
 
 }
 
