@@ -1,13 +1,10 @@
-"use client"
 import React from 'react'
 import Card from './card'
 import Modules from './modules'
 import Registration from './registration'
 import "@/app/globals.css"
-import { TextGenerateEffect } from "./ui/text-generate-effect";
 
 const MainContent = () => {
-  const words = "Venue: Beaconhouse Potohar Campus A levels Building & Ground"
   return (<>
 
     <div>
@@ -20,7 +17,7 @@ const MainContent = () => {
         </div>
        <div data-aos="fade-up" className='flex1 nov'><p className='text-yellow-500 text-4xl'>Nove</p> <p className='text-red-700 text-4xl'>mber &nbsp;</p><p className='text-yellow-500 text-4xl'>2nd &nbsp;&</p><p className='text-red-700 text-4xl'>&nbsp; 3rd</p></div>
            
-       <div data-aos="fade-up" className=' venue flex1 nov2'><div className='text-yellow-500 text-center '> <TextGenerateEffect words={words} /></div></div>
+       <div data-aos="fade-up" className=' venue flex1 nov2'><p className='text-yellow-500 text-center '>Venue: Beaconhouse Potohar Campus A levels Building & Ground</p></div>
         <div><Card/></div>
 
         <div data-aos="fade-up" className= "quote text-white flex1 flex2">

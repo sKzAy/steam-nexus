@@ -1,4 +1,4 @@
-
+"use client"
 import React from 'react'
 import "@/app/globals.css"
 import { useEffect, useRef } from 'react'
