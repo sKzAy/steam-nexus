@@ -5,7 +5,7 @@ import "@/app/globals.css"
 const Registration = () => {
     return (
         <>
-            <div data-aos="zoom-in" id='registration' className=" flex1 ">
+            <div data-aos="zoom-in" className=" flex1 ">
                 <div className=" mod-div text-white rounded-xl border-2 border-red-500 p-10"><h2 className='font-extrabold text-2xl text-yellow-500 size-large' id='modules '>Registration:</h2>
                     <h3 className='text-red-500 pb-4 pt-4 size-semismall'>Fee: </h3>
                     <ul>

@@ -40,6 +40,7 @@ const Modules = () => {
   <CarouselPrevious className="bg-black" />
   <CarouselNext className='bg-black' />
 </Carousel>
+<div id='registration' className='w-0 h-0'></div>
 </div>
 </div>
 </div>
