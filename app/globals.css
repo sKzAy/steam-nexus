@@ -267,6 +267,12 @@ font-size:large;
   position: relative;
   top: 80px;
 }
+.time-p{
+  padding-top: 1vh;
+}
+.cap2{
+  font-size: 2cap;
+}
 
 
 }
